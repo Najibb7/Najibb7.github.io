@@ -4,7 +4,7 @@ export interface SiteConfig extends HeaderProps {
   lang: string;
   author: string;
   socialLinks: { text: string; href: string }[];
-  socialImage: string;
+  socialImage?: string;
   canonicalURL?: string;
 }
 
@@ -19,7 +19,7 @@ export interface HeroProps {
   name: string;
   specialty: string;
   summary: string;
-  email: string;
+  cv: string;
 }
 
 export interface ExperienceProps {
@@ -36,11 +36,12 @@ export interface ProjectProps {
   image: string;
   linkPreview?: string;
   linkSource?: string;
+  techno?: string[];
 }
 
 export interface AboutProps {
   description: string;
-  image: string;
+  image?: string;
 }
 
 export interface HeaderProps {
