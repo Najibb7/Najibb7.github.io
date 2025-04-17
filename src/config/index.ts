@@ -59,7 +59,15 @@ export const SITE_CONTENT: SiteContent = {
       linkPreview: "/",
       linkSource: "https://github.com/Najibb7",
       image: "/Movie_Search.png",
-      techno: ["JS","HTML/CSS"]
+      techno: ["JS","HTML/CSS","API"]
+    },
+    {
+      name: "Manag'Movie",
+      summary: "Application web permettant de creer et organiser des listes de film personnalisé",
+      linkPreview: "/",
+      linkSource: "https://github.com/Najibb7",
+      image: "/ManagMovie.png",
+      techno: ["JS","Bootstrap","API"]
     },
   ],
   about: {
